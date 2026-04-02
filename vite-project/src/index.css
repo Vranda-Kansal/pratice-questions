@@ -1,0 +1,22 @@
+.rowClass {
+  display: flex;
+  flex-direction: col;
+  gap: 5px;
+}
+.colClass {
+  display: flex;
+  padding: 7px;
+  margin: 2px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.selectedSeat {
+  background-color: rgb(231, 163, 163);
+}
+.buttonStyle {
+  padding: 3px;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
