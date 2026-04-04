@@ -11,3 +11,20 @@
 .post p {
   color: blueviolet;
 }
+.paginationbottom {
+  display: flex;
+  gap: 4px;
+}
+.pageNum {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.selected {
+  background-color: rgb(212, 212, 248);
+}
+.buttonBottom {
+  display: flex;
+  gap: 7px;
+}
