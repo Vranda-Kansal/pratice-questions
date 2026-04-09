@@ -1,0 +1,56 @@
+Why we use semantic tags in HTML?
+See, HTML is nothing but a structure and a document which we want to display on our screen. Now, at the time it is used for, like for the document, someone want to share or the article someone want to share. So every time it has to tend to be some kind of meaning. So that we have which has some kind of meaning or which will represent something or other semantic tags like the article tag, the section tag, the table tag. These kind of tag represent something or have some kind of meaning. So they are known as the semantic tags and they are useful for like screen readers as well as well as the SEO friendly so that the browser get to know like what particular tag basically mean. Now, what are the screen readers? screen readers are nothing but the person who have some kind of disability, like the visual disability, so it would be easy for them to read because they are accessibility design.
+
+
+What is the difference between div and span tag?
+So today, I just then, first of all, they both are container and both are both, like we can say, like both are both. So what happened like, the div is a block-level element and the span is an inline-level element. So what will happen like, for the block-level element, it will take the width and height of the parent, like whatever their parent width and height will be, it will automatically even to the div. And it always start from the next line. But in case of the span, the width and height is only of the content what is there inside that container. So apart from that, we can't give the width and height to, like we can't set the width and height to the particular span element, because they are inline element. And then inline elements are tend to have the width and height of the content, whatever they have inside. So I think this is the main difference between the inline element and the block-level element.
+
+Specificity in CSS.
+Yeah, so this is the answer kind of calculator which is used by the browser to get to know like which of the CSS tool would get to be applied on a particular element at the end. Now when this have the highest specificity would have to be applied on the particular element. Yeah, so this is what the specificity in CSS.
+
+Is the good to important whenever we want to explain something.
+I think we should not have to use the Static as much because it is like, suppose someone has given the important, so it regardless of the specificity and the inheritance, the important one would get to be applied. But suppose someone other has also given the important to the same particular class, another have given to it, but other person has also given the important, so what would happen? The same rule would get to be applied, like the one which come to the lower in the order would get to be applied and the one which has the highest specificity would get to be applied, so we don't need basically avoid to use the important as much.
+
+var vs let
+Yeah, so var, both are first the variable state container in which we can put anything, like any value which we want to hold, we can put them. But the main difference between them is that the var is like the old way to hold the values into a particular container, but let is the latest way, like in the latest way, more restrictive as compared to the var one. But the var is like the function scope as well as the global scope, whereas the let is the block scope. Like you cannot access the particular let variable until the value has been initialized into it. As well as suppose a particular variable has been declared using let, so you cannot create another variable with the same name using let. So let is more restrictive compared to var. Yeah, so this is, these are the major difference between var and let.
+
+what is block scope?
+inside the {} are known as block scoped.
+
+hoisting?
+So hosting is a way in the JavaScript like in the JavaScript execution process what happens like it is happened in the two phases. The first phase is the memory allocation phase and the second phase is the actual execution phase. So I think the memory allocation phase is known as the hosting because what would happen like the JavaScript is scan all the variables and the functions which it has and allocate memory to them. And you can also say like it bring them to the top of the scope in which it is declared. So this is what is hosting and by default the value which is given to all the variables are the undefined. Later when my code has been executed from line by line, the value has been initialized to it. So this is what I think the hosting part.
+
+js is single threaded or multi threaded?
+So JavaScript is a single-threaded language, like there is only one call stack in which every execution has to be taken. So you have JavaScript can only execute one line at a time.
+
+how async operations are handled in js?
+Yeah, so async operation have the one which can block our main thread, like maybe they take some kind of time or a lot of time to be completed. So since JavaScript is single-threaded language, so our main thread has kept the block. So for that, we have some kind of async operation like we can perform these operations in the background, but the JavaScript handle them using the call stack and using the event loop. So what happens like whenever a particular async operation like browser has also given some kind of web APIs like the set timeout and set interval, apart from them, there are fetch API, which can take time, like the promise can also take time. So what happens like They does not block our main thread. When they get completed, they have to be wait in the queue. Like there are two kind of queue. One is the high priority queue and the second one is the micro queue. So for the low priority one. So in the low priority one, the set timeout and set interval has to be wait, but all the promises and these kind of things have to be wait in the high priority queue. So what will happen whenever my JavaScript call stack from my JavaScript engine has to be like is free, so he had to check the high priority queue first, like if there is anything in the high priority queue. If there is something, he would, he would gonna execute it and after that, he would check the macro queue, like if there is something in the low priority one, then he would take that particular thing and execute it. So this is how the async operation has been handled. Like they have to be wait in the queue and whenever the my JavaScript becomes free, my JavaScript execution or engine becomes free, he would check like okay there is something in the queue, so I have to execute that by which my main thread does not get blocked and he is free.
+
+promises?
+Promises are, we can say, are the imminent completion of a well-assigned corporation. So whenever my association corporation has get to be completed, it sits duty like he would tell me like whether it is, no matter whether it is rejected, it is fulfilled, or it is in pending state, the promise and quality always have to tell me like what the final result have been by the promise. So this is how the assumption corporation has to be done because of the promise what we get, like if it's a single source of proof, it always tell me like whether something has to be completed or in the pending state or it is on the rejected state.
+
+type of promise is it number, string or what?
+object
+
+
+why do we need react?
+actually the main problem that we face is dom manipulation, bcz browser shift write in dom for later but if we do read then browser have to calculate at that particular time
+which creates the reflow and repaint again. lacks the performance . so here the react comes which the simple logic like we will not touch the dom like randomly, we will do manipulation in DOM 
+efficiently by the extreme power of js which leads virtual dom in picture.
+
+virtual dom?
+so this the js object having the blueprint of the dom or or page at the time UI.
+any update we want to do in dom react does that in virtual dom and then batch all the chnages effectiently in real dom.
+
+declarative vs imperative programming?
+ya declarative means u just have to tell what u want now the whole process or steps but in imperative you have to tell everything
+
+state in react?
+state is like the component memory, like u want like react should track it, at the end you want to display some data in the UI
+and on handleing or interaction some action should done and it may manipulate the data now we have to change our UI too based on UI
+state is a memory in which you can store data and its like single truth which react has based on the it should be visible in UI
+
+instead of state why we dont use normal variables?
+we need some controller or connect which lead our UI and data in sync, if we use normal var then it should not tell react like ok now re-render whenever data chnages
+so state are the one which also re-render the UI whenever data chnages
+
