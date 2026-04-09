@@ -1,0 +1,60 @@
+🚀 Interview Experience – Frontend (React/JavaScript) | Persistent Systems
+
+Recently had an interesting interview experience with Persistent Systems and wanted to share some of the questions/topics that were discussed. It was a great mix of practical coding, core JavaScript concepts, and frontend fundamentals.
+
+🔹 Coding / Problem-Solving
+
+   1. A parent div with 3 child divs. You need to place first at bottom-left and second at bottom-middle and third one at bottom-right.
+ 
+🔹 JS output-based questions:
+       🌞    (function () {
+                     try {
+                                throw new Error();
+                           } catch (x) {
+                                var x = 1, y = 2;
+                                console.log(x);
+                            }  
+                         console.log(x);
+                         console.log(y);
+               })();
+
+🌞          console.log(0 || 1);           //1
+               console.log(1 || 2);           //1
+               console.log(0 && 1);       //0
+               console.log(1 && 2);       // 2 
+
+🌞      (function(){
+                          var a = b = 3;
+              })();
+                console.log(a);
+                console.log(b);
+
+🌞   Create a React component that allows a user to select a file and simulate an upload process. When the user clicks the upload button, display a progress bar that gradually fills from 0% to 100% and show the upload percentage. The progress bar should update dynamically using React state.
+
+🔹 Core JavaScript Concepts 
+ 
+  1.  Currying (currying vs normal functions)
+  2.  call, apply, bind – when to use
+  3.  Event loop
+  4. Promises: Promise.all, Promise.allSettled, Promise.race
+  5. Debouncing vs Throttling
+  6. Sync vs Deferred execution
+  7. Object & Array Destructuring
+  8. Difference between for...of and  for...in .
+
+🔹 React Topics
+       1.  Hooks
+       2.  useState – async or sync? How it works internally
+       3.   Error Boundaries
+       4.   Redux / Redux Toolkit flow
+
+
+🔹 HTML & CSS Fundamentals
+
+  1.  Box Model
+  2.  CSS Specificity
+  3.  Pseudo-classes and Pseudo-elements
+  4.  Accessibility.
+
+Responsive Design techniques
+🔹 Testing -  Writing test cases (basic understanding expected)
